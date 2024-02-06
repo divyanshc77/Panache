@@ -1,6 +1,9 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;  
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  background: rgba(244, 243, 240, 0.8);
+  background: #363946;
   display: flex;
   align-items: center;
   height: 8rem;
@@ -14,7 +17,7 @@
 }
 
 li {
-  color: #173f35;
+  color: black;
 }
 
 .menuNav {
@@ -60,7 +63,7 @@ li {
   width: 82rem;
   margin-top: 1rem !important;
   height: 30rem;
-  background-color: white;
+  background-color: #819595;
   border-radius: 25px;
 }
 .dropdown-nav li {
@@ -81,7 +84,7 @@ li {
   left: -20rem;
   width: 68rem;
   height: 28rem;
-  background-color: white;
+  background-color: #819595;
 }
 .dropdown-nav2 li {
   font-weight: 300;
@@ -101,7 +104,7 @@ li {
   left: -33rem;
   width: 71rem;
   height: 28rem;
-  background-color: white;
+  background-color: #819595;
 }
 .dropdown-nav3 li {
   font-weight: 300;
@@ -121,7 +124,7 @@ li {
   left: -37rem;
   width: 71rem;
   height: 28rem;
-  background-color: white;
+  background-color: black;
 }
 .dropdown-nav4 li {
   font-weight: 300;
@@ -134,7 +137,7 @@ li {
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #031D44;
+  color: black;
   padding: 60px 0px;
   margin: 0px 20px;
   display: inline-block;
@@ -163,12 +166,20 @@ li {
   height: 5px;
   content: "";
   position: absolute;
-  background-color: #031D44;
+  background-color: #b1b6a6;
 }
 
 .navLine {
   left: 56.8rem;
   width: 1.5px !important;
   top: 2.8rem !important;
-  background-color: #031D44;
-}/*# sourceMappingURL=Navbar.css.map */
+  background-color: #b1b6a6;
+
+  
+}
+
+
+.Carticon{
+  color: wheat;
+}
+/*# sourceMappingURL=Navbar.css.map */

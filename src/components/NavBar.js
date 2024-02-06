@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Navbar.css";
-import logo from "../assets/cara.png";
+import logo from "../assets/icon.png";
 import { useState } from 'react';
 import BestSellers from './BestSellers';
 import GiftSets from './GiftSets';
@@ -107,7 +107,7 @@ const NavBar = () => {
                     </ul>
 
                     <Link to="/cart">
-                        <FaShoppingBag className=' text-2xl text-right ml-10 relative left-24' />
+                        <FaShoppingBag className='Carticon text-2xl text-right ml-10 relative left-24' />
                     </Link>
                 </nav >
             </header >
